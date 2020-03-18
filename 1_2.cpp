@@ -8,7 +8,7 @@ void reverseString(char *s1){
         while(*end){
             end++;
         }
-        end--;
+        end--;//bcoz of the null pointer
     }
     while (s1<end){
         temp=*s1;
